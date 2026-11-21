@@ -1,0 +1,2 @@
+# Keeps the Maven src/main/resources directory in version control.
+# Put application/framework resources here (config.properties, test data, etc.).

@@ -14,6 +14,9 @@ Basic Maven project structure for Java UI automation with Selenium WebDriver and
 .
 ├── pom.xml
 └── src
+    ├── main
+    │   ├── java                        # reusable framework code (Page Objects, utils)
+    │   └── resources                   # framework config, test data
     └── test
         ├── java
         │   └── com/example/tests
@@ -46,4 +49,4 @@ mvn test -Dtest=SauceDemoTest
 3. Register the class in `src/test/resources/testng.xml` (or run it with `-Dtest`).
 
 For a larger suite, add `pages` (Page Objects) and `utils` packages under
-`src/test/java`, plus test data under `src/test/resources`.
+`src/main/java`, plus config/test data under `src/main/resources`.

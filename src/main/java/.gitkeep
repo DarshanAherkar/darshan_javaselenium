@@ -1,0 +1,3 @@
+# Keeps the Maven src/main/java directory in version control.
+# Put reusable framework code here (Page Objects, utilities, driver factory).
+# Test classes belong in src/test/java.
