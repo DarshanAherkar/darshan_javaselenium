@@ -1,0 +1,14 @@
+# Maven
+target/
+
+# Eclipse
+.settings/
+
+# Compiled classes
+*.class
+
+# Reports
+surefire-reports/
+
+# Logs
+*.log
